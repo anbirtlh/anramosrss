@@ -1,0 +1,54 @@
+<!DOCTYPE html>				<!-- Aqui nos muestra el tipo pagina como esta hecha y el idioma de la misma -->
+<html lang="es">
+<head>
+  <title>EUSKADIKO FERIA</title>  
+  <meta charset="UTF-8" />		<!-- Aqui nos muestra la información para el navegador,metadatos para los buscadores y admite caracteres especiales con la codificación de caracteres UTF-8. -->
+  <meta name="description" content="Una pagina web de una feria de viajes en Euskadi">
+  <link rel="stylesheet" type="text/css"  href="estilos/estilos.css" />             <!-- Enlace al archivo de estilos que tenemos en la carpeta estilos -->
+</head>
+<body>
+  <header>
+    <img src="imagenes/logo.png" alt="Logo Euskal Feria Organizatzailea" width="240" />		<!-- Cabecera de la web junto al logo de la feria -->
+    <p id="fechaHora"></p>				<!-- Banner Fecha y Hora Javascript -->
+    <p id="contadorVisitas"></p>			<!-- Banner Contador Visitas -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="expositores.html">Expositores</a></li>			<!-- Menu de navegación- -->
+        <li><a href="alojamientos.html">Alojamientos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Nuestra Historia</h1>
+    <img src="imagenes/historia.png" alt="Fotografía antigua de la feria" width="600" />            <!-- Contenido de la pagina -->
+
+    <p>
+     La <strong> Feria de Viajes de Euskadi – Euskal Bidaiako Feria </strong> nacio en el año 1920 con el objetivo de promover el turismo y 
+     la cultura del Pais Vasco – Euskal Herria. Desde que se creo esta feria, numerosos eventos se han organizado a lo largo de los años y 
+     se ha consolidado como una de las principales ferias de viajes y eventos culturales de la región. 
+    </p>
+
+    <p>
+     A lo largo de más de 100 años desde su creación, la feria ha crecido en numeros de expositores, visitantes de todo el mundo y 
+     convirtiendose en un punto de encuentro para profesionales del sector turistico.
+    </p>
+
+    <h2>Hitos importantes</h2>
+    <ol>
+      <li>1920 – Primera edición con 50 expositores locales.</li>
+      <li>1950 – Inclusión de expositores internacionales.</li>
+      <li>2000 – Récord de visitantes: más de 100.000 personas.</li>
+      <li>2020 – Feria virtual debido a la pandemia.</li>
+      <li>2023 – Regreso al formato presencial con innovaciones tecnológicas.</li>
+    </ol>
+  </main>
+
+  <footer>
+    <p>&copy; Bizkaiko Euskal Feria Organizatzailea 2025. Esta web esta creada para aprendizaje. Es sin animo de lucro y unicamente con fines de estudio.</p>   					<!-- Derechos de autor -->    
+  </footer>
+  <script src="funciones/funciones.js"></script>			 <!-- Ruta archivo Funciones -->
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>				<!-- Aqui nos muestra el tipo pagina como esta hecha y el idioma de la misma -->
+<html lang="es">
+<head>
+  <title>EUSKADIKO FERIA</title>  
+  <meta charset="UTF-8" />		<!-- Aqui nos muestra la información para el navegador,metadatos para los buscadores y admite caracteres especiales con la codificación de caracteres UTF-8. -->
+  <meta name="description" content="Una pagina web de una feria de viajes en Euskadi">
+  <link rel="stylesheet" type="text/css"  href="estilos/estilos.css" />             <!-- Enlace al archivo de estilos que tenemos en la carpeta estilos -->
+</head>
+<body>
+  <header>
+    <img src="imagenes/logo.png" alt="Logo Euskal Feria Organizatzailea" width="240" />		<!-- Cabecera de la web junto al logo de la feria -->
+    <p id="fechaHora"></p>							<!-- Banner Fecha y Hora Javascript Comun -->
+    <p id="tiempoBilbao">Cargando el tiempo en Bilbao...</p>			<!-- Banner Tiempo -->
+
+     <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="expositores.html">Expositores</a></li>			<!-- Menu de navegación- -->
+        <li><a href="alojamientos.html">Alojamientos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Expositores 2026</h1>
+    <p>La feria cuenta con una gran variedad de expositores nacionales e internacionales que presentan destinos turísticos, gastronomía, tecnología del viaje y propuestas culturales únicas.
+       A continuación los expositores que más han colaborado durante años con la feria</p>
+																				
+    <ul class="expositores">
+      <li>
+        <img src="imagenes/azulmarino.png" alt="Logo Viajes Azul Marino">
+        <a href="https://www.azulmarino.com/" target="_blank">Viajes Azul Marino (España)</a>								 <!-- Contenido de la pagina -->
+      </li>
+      <li>
+        <img src="imagenes/bculinary.png" alt="Logo Basque Culinary Center">
+        <a href="https://www.bculinary.com" target="_blank">Basque Culinary Center (Euskadi)</a>
+      </li>
+      <li>
+        <img src="imagenes/francia.png" alt="Logo Francia">
+        <a href="https://www.france.fr/es/" target="_blank">Explore France (Francia)</a>
+      </li>
+      <li>
+        <img src="imagenes/italia.jpg" alt="Logo Italia">
+        <a href="https://www.italia.it/es" target="_blank">Descubre Italia (Italia)</a>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; Bizkaiko Euskal Feria Organizatzailea 2025. Esta web esta creada para aprendizaje. Es sin animo de lucro y unicamente con fines de estudio.</p>					<!-- Derechos de autor -->
+  </footer>
+    <script src="funciones/funciones.js"></script>				<!-- Ruta archivo Funciones -->	
+</body>
+</html>

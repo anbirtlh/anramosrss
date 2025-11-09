@@ -1,0 +1,50 @@
+<!DOCTYPE html>				<!-- Aquí nos muestra el tipo pagina como esta hecha y el idioma de la misma -->
+<html lang="es">
+<head>
+  <title>EUSKADIKO FERIA</title>  
+  <meta charset="UTF-8" />	<!-- Aquí nos muestra la información para el navegador,metadatos para los buscadores y admite caracteres especiales con la codificación de caracteres UTF-8. -->
+  <meta name="description" content="Una pagina web de una feria de viajes en Euskadi">
+  <link rel="stylesheet" type="text/css"  href="estilos/estilos.css" />             <!-- Enlace al archivo de estilos que tenemos en la carpeta estilos -->
+</head>
+<body>
+  <header>
+    <img src="imagenes/logo.png" alt="Logo Euskal Feria Organizatzailea" width="240" />		<!-- Cabecera de la web junto al logo de la feria -->
+    <p id="fechaHora"></p> 			<!-- Banner Fecha y Hora Javascript -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="expositores.html">Expositores</a></li>			<!-- Menu de navegación- -->
+        <li><a href="alojamientos.html">Alojamientos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+<main>
+    <h1>Bienvenido a la Feria de Viajes en Euskal Herria</h1>						<!-- Contenido de la pagina -->
+    <img src="imagenes/feria.png" alt="Imagen panorámica de la feria" width="600" />
+
+ <p>
+      La feria de viajes de Euskadi es un evento que anualmente se organiza en Bilbao en el mes de Junio para exponer todo lo relacionado con la cultura, turismo y gastronomía de cada país.Así, los viajeros que pueden conocer
+      que se encontraran en el destino elegido.
+ </p>
+
+    <h2>Qué encontrarás</h2>
+    <ul>
+      <li>Expositores nacionales e internacionales</li>
+      <li>Conferencias sobre turismo</li>
+      <li>Degustaciones gastronómicas</li>
+      <li>Visitas guiadas</li>
+    </ul>
+   <div class="rss-container">
+    <a type="application/rss+xml" href="feed.xml">
+       <img src="imagenes/rss.png" alt="Ultimas novedades de la feria" width="30" height="30">			<!-- Logo y Ultimas novedades de la feria con RSS -->
+       Aqui encontraras las ultimas novedades de la feria</a>
+  </main>
+
+  <footer>
+    <p>&copy; Bizkaiko Euskal Feria Organizatzailea 2025. Esta web esta creada para aprendizaje. Es sin animo de lucro y unicamente con fines de estudio.</p>				<!-- Derechos de autor -->
+  </footer>
+  <script src="funciones/funciones.js"></script>	<!-- Ruta archivo Funciones -->
+</body>
+</html>

@@ -1,0 +1,204 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2E8B57;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+header img {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #0077b6; 
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+h2 {
+  font-size: 20px;               
+  font-weight: 600;              
+  line-height: 1.4;              
+  margin-top: 25px;              
+  margin-bottom: 15px;           
+  text-align: center;
+  color: #b22222;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  letter-spacing: 0.5px;         
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: #A984E0;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #155C34;
+}
+
+main {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+footer {
+  text-align: center;
+  background-color: #2E8B57;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+
+ul.expositores {
+  list-style-type: none;
+  padding-left: 0;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+ul.expositores li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+ul.expositores img {
+  height: 40px;
+  margin-right: 15px;
+}
+
+ul.expositores li a {
+  text-align: left;
+  color: #0044cc;
+  font-weight: bold;
+  text-decoration: none;
+  flex-grow: 1;
+}
+
+ul.expositores li a:hover {
+  text-decoration: underline;
+}
+
+body.pagina-alojamientos h1 {
+  text-align: center;
+  color: #d62828;
+}
+body.pagina-alojamientos h2 {
+  text-align: center;
+  color: #2e8b57;
+  font-size: 26px;
+}
+
+body.pagina-alojamientos table {
+  margin: 10px auto;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+body.pagina-alojamientos th,
+body.pagina-alojamientos td {
+  border: 1px solid #666666;
+  padding: 8px;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+body.pagina-alojamientos th {
+  background-color: #0044cc;
+  color: white;
+}
+
+.logo-hotel {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*Estilo para Javascript */
+
+/*Estilo para el banner de la fecha y hora */
+
+#fechaHora {
+  color: #ffa500; 
+  font-weight: bold;  
+}
+
+/*Estilo para el banner del tiempo */
+
+#tiempoBilbao {
+  color: red;               
+  font-weight: bold;        
+  padding: 5px;            
+}
+
+/*Estilo para el envio de correo */
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+/*Estilo para la linea RSS */
+.rss-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.rss-container a {
+  display: inline-block;
+  color: #0044cc;
+  font-weight: bold;
+  text-decoration: none;
+}
+.rss-container a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>				<!-- Aqui nos muestra el tipo pagina como esta hecha y el idioma de la misma -->
+<html lang="es">
+<head>
+  <title>EUSKADIKO FERIA</title>  
+  <meta charset="UTF-8" />		<!-- Aqui nos muestra la información para el navegador,metadatos para los buscadores y admite caracteres especiales con la codificación de caracteres UTF-8. -->
+  <meta name="description" content="Una pagina web de una feria de viajes en Euskadi">
+  <link rel="stylesheet" type="text/css"  href="estilos/estilos.css" />             <!-- Enlace al archivo de estilos que tenemos en la carpeta estilos -->
+</head>
+<body>
+  <header>
+    <img src="imagenes/logo.png" alt="Logo Euskal Feria Organizatzailea" width="240" />		<!-- Cabecera de la web junto al logo de la feria -->
+    <p id="fechaHora"></p>									<!-- Banner Fecha y Hora Javascript -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="expositores.html">Expositores</a></li>			<!-- Menu de navegación- -->
+        <li><a href="alojamientos.html">Alojamientos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <h1 class="centrado">Contacto</h1>
+  <img src="imagenes/correo.png" alt="Icono de correo" width="40" style="vertical-align: middle;" /><br /> 
+  <p>Si deseas más información sobre la Feria de Viajes de Euskal Herria, rellena el siguiente formulario:</p>
+
+    
+      <form action="mailto:info@bizkaikoferiaorganizatzailea.com" method="post" enctype="text/plain">
+      <label for="nombre">Nombre:</label><br />
+      <input type="text" id="nombre" name="nombre" required /><br /><br />						<!-- Formulario de contacto -->
+      <span id="errorNombre" class="error"></span><br /><br />
+
+      <label for="email">Correo electrónico:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+      <span id="errorEmail" class="error"></span><br /><br />
+
+      <label for="mensaje">Mensaje:</label><br />
+      <textarea id="mensaje" name="mensaje" rows="5" cols="40" required></textarea><br /><br />
+      <span id="errorMensaje" class="error"></span><br /><br />
+
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Borrar" />
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; Bizkaiko Euskal Feria Organizatzailea 2025. Esta web esta creada para aprendizaje. Es sin animo de lucro y unicamente con fines de estudio.</p>
+  </footer>
+  <script src="funciones/funciones.js"></script>			<!-- Ruta archivo Funciones -->
+</body>
+</html>
