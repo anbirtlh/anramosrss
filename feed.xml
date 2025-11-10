@@ -12,7 +12,7 @@
 		<link>https://anbirtlh.github.io/anramosrss/historia-berria</link>
 		<description>Aqui contamos las ultimas historias de la feria</description>
 		<pubDate>Fri, 07 Nov 2025 00:26 +0100</pubDate>
-		<guid>https://anbirtlh.github.io/prueba/historia-berria.html</guid>
+		<guid>https://anbirtlh.github.io/anramosrss/historia-berria<</guid>
 		<author>admin@euskadikoferiaorganizatzailea.eus (Ander - Administradorea)</author>
 		</item>
 		
@@ -21,7 +21,7 @@
 		<link>https://anbirtlh.github.io/anramosrss/expositores-berria</link>
 		<description>Aqui contamos los expositores confirmados para el año 2026</description>
 		<pubDate>Fri, 07 Nov 2025 00:26 +0100</pubDate>
-		<guid>https://anbirtlh.github.io/prueba/expositores-berria.html</guid>
+		<guid>https://anbirtlh.github.io/anramosrss/expositores-berria</guid>
 		<author>admin@euskadikoferiaorganizatzailea.eus (Ander - Administradorea)</author>
 		</item>
 		
@@ -30,8 +30,9 @@
 		<link>https://anbirtlh.github.io/anramosrss/alojamientos-berria</link>
 		<description>Aqui os mostramos los nuevos alojamientos que colaboran con la feria</description>
 		<pubDate>Fri, 07 Nov 2025 00:26 +0100</pubDate>
-		<guid>https://anbirtlh.github.io/prueba/alojamientos-berria.html</guid>
+		<guid>https://anbirtlh.github.io/anramosrss/alojamientos-berria</guid>
 		<author>admin@euskadikoferiaorganizatzailea.eus (Ander - Administradorea)</author>
 		</item>
 	</channel>
 </rss>
+
