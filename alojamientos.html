@@ -1,0 +1,70 @@
+<!DOCTYPE html>				<!-- Aqui nos muestra el tipo pagina como esta hecha y el idioma de la misma -->
+<html lang="es">
+<head>
+  <title>EUSKADIKO FERIA</title>  
+  <meta charset="UTF-8" />		<!-- Aqui nos muestra la información para el navegador,metadatos para los buscadores y admite caracteres especiales con la codificación de caracteres UTF-8. -->
+  <meta name="description" content="Una pagina web de una feria de viajes en Euskadi">
+  <link rel="stylesheet" type="text/css"  href="estilos/estilos.css" />             <!-- Enlace al archivo de estilos que tenemos en la carpeta estilos -->
+</head>
+<body class="pagina-alojamientos">
+  <header>
+    <img src="imagenes/logo.png" alt="Logo Euskal Feria Organizatzailea" width="240" />		<!-- Cabecera de la web junto al logo de la feria -->
+    <p id="fechaHora"></p>									<!-- Banner Fecha y Hora Javascript -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="expositores.html">Expositores</a></li>			<!-- Menu de navegación- -->
+        <li><a href="alojamientos.html">Alojamientos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Alojamientos recomendados para los visitantes</h1>
+    <table>
+      <tr>
+        <th>Logo</th>
+        <th>Hotel</th>
+        <th>Ubicación</th>
+        <th>Precio aproximado</th>
+        <th>Mapa</th>
+      </tr>
+      <tr>
+        <td><img src="imagenes/ibis.png" alt="Logo Ibis Budget Vitoria Gasteiz" class="logo-hotel" /></td>
+        <td><a href="https://all.accor.com/hotel/B4Y9/index.es.shtml" target="_blank">Ibis Budget Vitoria Gasteiz</a></td>
+        <td>Vitoria-Gasteiz</td>
+        <td>55 € / noche</td>
+        <td class="mapa" data-direccion="Ibis Budget Vitoria Gasteiz"></td>		<!-- MAPA con Javascript -->
+      </tr>
+      <tr>
+        <td><img src="imagenes/carlton.png" alt="Logo Hotel Carlton" class="logo-hotel" /></td>
+        <td><a href="https://www.hotelcarlton.es" target="_blank">Hotel Carlton</a></td>
+        <td>Bilbao</td>
+        <td>120 € / noche</td>
+        <td class="mapa" data-direccion="Hotel Carlton"></td>				<!-- MAPA con Javascript -->			
+      </tr>
+      <tr>
+        <td><img src="imagenes/nh.png" alt="Logo NH Collection Aranzazu" class="logo-hotel" /></td>
+        <td><a href="https://www.nh-hotels.com/es/hotel/nh-collection-san-sebastian-aranzazu" target="_blank">NH Collection Aranzazu</a></td>
+        <td>San Sebastián</td>
+        <td>130 € / noche</td>
+        <td class="mapa" data-direccion="NH Collection Aranzazu"></td>			<!-- MAPA con Javascript -->
+      </tr>
+    </table>
+
+    <h2>Servicios comunes</h2>
+    <ul>
+      <li>Wifi gratuito</li>
+      <li>Desayuno incluido</li>
+      <li>Parking disponible</li>
+      <li>Habitaciones adaptadas</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; Bizkaiko Euskal Feria Organizatzailea 2025. Esta web esta creada para aprendizaje. Es sin animo de lucro y unicamente con fines de estudio.</p>
+  </footer>
+  <script src="funciones/funciones.js"></script>			<!-- Ruta archivo Funciones -->
+</body>
+</html>
