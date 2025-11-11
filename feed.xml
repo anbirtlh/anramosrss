@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 	<channel>
-		<title>Euskadiko Feriako Berriak</title>
+		<title>Euskadiko Feriaren Berriak</title>
 		<link>https://anbirtlh.github.io/anramosrss/index.html</link>
 		<description>Hemen daukazu azken berri garrantzitzuenak - Aqui tienes las ultimas novedades de la feria</description>
 		<language>es-es</language>
@@ -27,5 +27,6 @@
 	</channel>
 
 </rss>
+
 
 
